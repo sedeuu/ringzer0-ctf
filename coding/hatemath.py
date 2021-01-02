@@ -24,5 +24,4 @@ hx = e.split("+")[1].split("-")[0].split("x")[1]
 bn = e.split("+")[1].split("-")[1].split("=")[0]
 dc = e.split("+")[0]
 bruh = int(dc) + int(hx, 16) - int(bn, 2)
-print(bruh)
 driver.get(url + str(bruh))
