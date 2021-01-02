@@ -3,7 +3,6 @@
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import os
 import time
 import hashlib
 import getpass
